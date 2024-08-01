@@ -1,28 +1,22 @@
 programa {
   funcao inicio() {
-    /*
-    operadores aritmeticos
-    + adição
-    - subtração
-    * multiplicação
-    / divisão
-    % resto da divisão 
-    */
+    //operaÃ§Ãµes aritmÃ©ticas
+    //declaraÃ§Ãµes de variavÃ©is
+    real nota1, nota2, nota3, nota4, nota5
+    cadeia nome, assunto
 
-    // declaração de variavel
-    real valorA,valorB 
+    escreva("Digite a nota 1: ")
+    leia(nota1)
+    escreva("Digite a nota 2: ")
+    leia(nota2)
+    escreva("Digite a nota 3: ")
+    leia(nota3)
+    escreva("Digite a nota 4: ")
+    leia(nota4)
+    
 
-    //atribuição
-    escreva(" digite o valor de A ")
-    leia(valorA)
-    escreva("digite o valor de B ")
-    leia( valorB)
 
-    //operação aritmeticas
-    escreva("\n A soma o valor de A e B:",( valorA + valorB))
-    escreva("\nA subtração de A e B:",(valorA - valorB))
-    escreva("\nA multiplicação o valor de A e B:",(valorA * valorB))
-    escreva("\nA divisão de A e B:",(valorA/ valorB))
-    escreva("\no restobde A e B",(valorA % valorB))
+    escreva("sua nota media foi de: ")
+    escreva((nota1 + nota2 + nota3 + nota4) / 4)
   }
 }
